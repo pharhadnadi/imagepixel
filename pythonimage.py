@@ -4,12 +4,12 @@ import numpy as np
 img = Image.open('lady0.jpg').convert('LA')
 #pix = img.load()
 
-# img.show()
+img.show()
 width, height = img.size
 
 newim = Image.new("RGB", (width, height), "white")
 
-chunklen = 10
+chunklen = 5
 
 for row in range(0,width, chunklen):
     

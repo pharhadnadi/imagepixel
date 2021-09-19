@@ -6,3 +6,4 @@ Feel free to change the images as you wish.
 
 Granularity of the image will be determined by chunklen which is set to 5 by default.
 
+![sample input output](https://github.com/pharhadnadi/imagepixel/blob/master/inputoutput.png)
